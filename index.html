@@ -10,7 +10,7 @@
     <div class="container">
         <div class="calculator">
             <form>
-                <div>
+                <div class="display">
                     <input type="text" name="display">
                 </div>
                 <div>
@@ -20,7 +20,7 @@
                     <input type="button" value="/">
                 </div>
                 <div>
-                    <input type="button" value="7">
+                    <input type="button" value="7" onclick="display.value = '7' ">
                     <input type="button" value="8">
                     <input type="button" value="9">
                     <input type="button" value="*">
@@ -40,7 +40,7 @@
                 <div>
                     <input type="button" value="00">
                     <input type="button" value="0">
-                    <input type="button" value="=">
+                    <input type="button" value="=" class="equal">
                 </div>
             </form>
         </div>
